@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+$primary: rgba(233,103,103,255);
+$secondary: rgba(37,37,38,255);
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: $secondary;
+}

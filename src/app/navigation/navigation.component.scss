@@ -1,0 +1,25 @@
+$primary: rgba(233,103,103,255);
+$secondary: rgba(37,37,38,255);
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    column-gap: 15px;
+    a {
+        text-decoration: none;
+        i {
+            font-size: 1.5em;
+            color: $primary;
+        }
+    }
+    .active {
+        i {
+            font-size: 3.2em; 
+        }
+    }
+}
+
