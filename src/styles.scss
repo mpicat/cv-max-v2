@@ -1,8 +1,3 @@
-$primary: rgba(233,103,103,255);
-$secondary: rgba(37,37,38,255);
-
-
-
 * {
     font-family: 'Poppins', sans-serif;
     font-size: 100%;
@@ -12,7 +7,9 @@ $secondary: rgba(37,37,38,255);
 }
 
 body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
-    background-color: $secondary;
 }

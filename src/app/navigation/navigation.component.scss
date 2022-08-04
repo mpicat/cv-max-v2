@@ -23,3 +23,14 @@ nav ul {
     }
 }
 
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        a i {
+            font-size: 2.5em;
+        }
+        .active i {
+            font-size: 4em;
+        }
+    }
+}

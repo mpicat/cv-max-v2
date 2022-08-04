@@ -1,0 +1,53 @@
+$primary: rgba(233,103,103,255);
+
+
+main {
+    padding: 25px 15px 0;
+    font-weight: 300;
+    color: white;
+    h1 {
+        font-size: 2em;
+        font-weight: 200;
+        line-height: 1.3em;
+        padding-bottom: 15px;
+    }
+    div {
+        h2 {
+            color: $primary;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        .date {
+            font-weight: 700;
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                right: 0;
+                top: 11px;
+                width: 60%;
+                border-bottom: 1px solid $primary;
+            }
+        }
+        .text {
+            padding-bottom: 15px;
+            font-size: 0.9em;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    main {
+        padding: 10% 35px 0;
+        div .date::after {
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        padding: 5% 30% 0;
+    }
+}
